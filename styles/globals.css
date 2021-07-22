@@ -74,7 +74,8 @@ body {
   display: none;
 }
 .image {
-  margin-left: 30px;
+  margin-left: 30%;
+  float: left;
 }
 .cntt {
   width: auto;
@@ -82,4 +83,19 @@ body {
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
+}
+.inf {
+  float: right;
+  margin-right: -40% !important;
+}
+.inf #title {
+  color: #fff;
+  font-size: 30px;
+}
+.inf #desc {
+  width: 500px;
+  color: #fff;
+  margin-left: 40px;
+  font-size: 20px;
+  text-align: left;
 }
