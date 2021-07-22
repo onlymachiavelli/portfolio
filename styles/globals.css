@@ -1,9 +1,68 @@
+@import "./MediaQ.css";
+:root {
+  --OFF: "Offside";
+}
+@font-face {
+  font-family: "Offside";
+  src: url("./../public/fonts/Offside-Regular.ttf");
+}
 html,
 body {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 * {
   outline: 0;
   text-decoration: none;
+  font-family: var(--OFF);
+  outline: none;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+.first {
+  background: url("./../public/img/bck.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  overflow: hidden;
+}
+.ops {
+  background: rgba(0, 0, 0, 0.596);
+  position: absolute;
+}
+.navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.logo {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  margin: 25px;
+}
+.nav {
+  margin: 32px;
+  display: block;
+}
+.nav a {
+  color: #fff;
+  margin: 10px;
+}
+.resbtn {
+  position: absolute;
+  background: none;
+  border: none;
+  right: 20px;
+  top: 30px;
+  cursor: pointer;
+  display: none;
+  z-index: 1;
 }
