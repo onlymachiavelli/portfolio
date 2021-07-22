@@ -1,8 +1,12 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import Link from 'next/link'
 import {Menu} from './../../packs/icons'
 const Navbar = () =>{
-    const [Nav, setNav] = useState("block");
+    const [Nav, setNav] = useState(
+        useEffect(
+            () => {if(window.innerWidth >=684 ) return "none"; else return "block"}
+        )
+     )
 
     return (
         <nav className="navbar">

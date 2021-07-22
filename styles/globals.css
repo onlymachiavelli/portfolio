@@ -66,3 +66,20 @@ body {
   display: none;
   z-index: 1;
 }
+.info {
+  width: 100%;
+  height: auto;
+}
+.kermit {
+  display: none;
+}
+.image {
+  margin-left: 30px;
+}
+.cntt {
+  width: auto;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
