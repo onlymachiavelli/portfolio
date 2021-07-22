@@ -9,6 +9,7 @@
     margin: auto !important;
     text-align: center;
     font-size: 27px;
+    z-index: 1 !important;
   }
   .nav a {
     display: block;
