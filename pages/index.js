@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className="home">
       <Head>
-        <title>@Machiavelli Building In Progress ! ... yes i know it's not perfectly responsive mind ur fcking buisiness ! hahahaha jk </title>
+        <title>@Machiavelli Building In Progress !  </title>
       </Head>
       <p id="title">My Social Media</p>
 
