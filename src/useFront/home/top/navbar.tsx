@@ -7,12 +7,17 @@ const Navbar = () => {
             height: "auto",
             display: "flex",
         } as React.CSSProperties,
+        logo: {
+            marginLeft: 20,
+        } as React.CSSProperties
 
     }
     return (
         <>
             <nav>
+                <div style={style.logo} >
 
+                </div>
             </nav>
         </>
     )

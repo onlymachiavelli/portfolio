@@ -1,4 +1,4 @@
-import React, { } from 'react'
+import React, { useRef } from 'react'
 import Top from './../src/useFront/home/top/top'
 
 const Home = () => {
