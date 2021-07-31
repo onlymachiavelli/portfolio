@@ -93,3 +93,24 @@ body {
 
 
 
+
+
+.nav{
+  margin:23px;
+}
+.nav a{
+  margin:10px;
+  color:#fff;
+}
+
+.scl{
+  position: absolute;
+  right:20px;
+  margin-top: 20px;
+}
+.scl a{
+  
+}
+.scl svg{
+
+}

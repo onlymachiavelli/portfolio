@@ -8,6 +8,7 @@ const Home = () => {
             width: "100%",
             height: "auto",
             backgroundColor: "#2D2D2D",
+            overflow: "hidden"
         } as React.CSSProperties
     }
     return (
