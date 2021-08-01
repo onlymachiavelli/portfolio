@@ -1,5 +1,6 @@
 import React, { } from 'react'
 import Navbar from './navbar'
+import { Rocket } from './../../icons'
 const Top = () => {
     const Style = {
         container: {
@@ -18,6 +19,11 @@ const Top = () => {
                         Who’s hoping to go to space
                         one day
                     </p>
+                </div>
+                <div className="rocket">
+                    <div className="ro">
+                        <Rocket />
+                    </div>
                 </div>
             </div>
         </div>

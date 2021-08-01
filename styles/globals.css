@@ -126,9 +126,12 @@ body {
   top:50%;
   transform: translateY(-50%);
   text-align: center;
+  display: flex;
+  justify-content: center;  
 }
+
 .desc{
-  width:50%;
+  width:auto;
   height:auto;
 
 }
@@ -145,4 +148,13 @@ body {
   text-align: left;
   margin: auto;
   padding-left: 80px;
+}
+.rocket{
+  width:auto;
+  height:200px;
+  
+
+}
+.ro{
+  margin-top: -90px;
 }
