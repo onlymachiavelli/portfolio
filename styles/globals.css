@@ -1,4 +1,5 @@
 @import "./MediaQ.css";
+@import "./animations.css";
 :root {
   --OFF: "Offside";
 }
