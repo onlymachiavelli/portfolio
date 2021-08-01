@@ -2,21 +2,10 @@ import React, { useState } from 'react'
 import { Logo, Machiavelli, GoldLinkedin, GoldTwitter, GolgInsta } from './../../icons'
 import Link from 'next/link'
 const Navbar = () => {
-    const style = {
-        nv: {
-            width: "100%",
-            height: "auto",
-            display: "flex",
-            padding: 20,
-        } as React.CSSProperties,
-        logo: {
-        } as React.CSSProperties
-
-    }
     return (
         <>
-            <nav style={style.nv}>
-                <div style={style.logo} >
+            <nav className="navbar">
+                <div className="logo" >
                     <Logo />
                     <Machiavelli />
                 </div>

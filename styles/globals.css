@@ -93,7 +93,14 @@ body {
 
 
 
-
+/**/
+.navbar{
+  width:100%;
+  height:auto;
+  display: flex;
+  padding:20px;
+  overflow-y: auto;
+}
 
 .nav{
   margin:23px;
@@ -108,9 +115,34 @@ body {
   right:20px;
   margin-top: 23px;
 }
-.scl a{
-  
-}
-.scl svg{
 
+.logo{
+  display: block;
+}
+.inf{
+  width:100%;
+  height:auto;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.desc{
+  width:50%;
+  height:auto;
+
+}
+.desc p{
+  color:#fff;
+}
+.desc #tit{
+  font-weight: bold;
+  font-size: 30px;
+}
+.desc #i{
+  width:300px;
+  font-size: 25px;
+  text-align: left;
+  margin: auto;
+  padding-left: 80px;
 }
