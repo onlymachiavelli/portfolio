@@ -157,5 +157,18 @@ body {
 
 }
 .ro{
-  margin-top: -90px;
+  margin-top: -30px;
+}
+
+.hirebtn{
+  width:230px;
+  height:50px;
+  background:#BCAA0B;
+  color:#fff;
+
+  border:none;
+  border-radius:3px;
+  margin-top: 40px;
+  box-shadow: 0px 5px 5px 0px #bcaa0b63;
+  cursor: pointer;
 }

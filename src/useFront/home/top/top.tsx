@@ -19,6 +19,7 @@ const Top = () => {
                         Who’s hoping to go to space
                         one day
                     </p>
+                    <button className="hirebtn">Hire Me</button>
                 </div>
                 <div className="rocket">
                     <div className="ro">
