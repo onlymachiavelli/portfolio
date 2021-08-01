@@ -1,6 +1,6 @@
 import React, { } from 'react'
 import Navbar from './navbar'
-import { Rocket } from './../../icons'
+import { Rocket, HandDown } from './../../icons'
 const Top = () => {
     const Style = {
         container: {
@@ -26,6 +26,11 @@ const Top = () => {
                         <Rocket />
                     </div>
                 </div>
+            </div>
+            <div id="fxd">
+                <button className="handdown">
+                    <HandDown />
+                </button>
             </div>
         </div>
     )
