@@ -179,6 +179,7 @@ body {
   border-radius:50%;
   border:none;
   box-shadow: 0px 5px 5px 0px #bcaa0b63;  bottom:20px;
+  cursor: pointer;
 }
 #fxd{
   width:100%;
@@ -186,4 +187,11 @@ body {
   position:absolute;
   bottom:30px;
   text-align: center;
+}
+.hirebtn, .handdown{
+  transition-duration: 0.5s;
+
+}
+.hirebtn:hover, .handdown:hover{
+  background:#eed70d;
 }
