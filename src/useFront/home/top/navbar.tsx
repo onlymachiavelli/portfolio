@@ -10,18 +10,18 @@ const Navbar = () => {
                     <Machiavelli />
                 </div>
                 <nav className="nav">
-                    <Link href="#">Home</Link>
+                    <Link href="/">Home</Link>
                     <Link href="#">Skills</Link>
                     <Link href="#">Projects</Link>
                     <Link href="#">Works</Link>
                     <Link href="#">GetHelped</Link>
                 </nav>
                 <div className="scl" >
-                    <Link href="#"><GolgInsta /></Link>
+                    <Link href="https://instagram.com/onlymachiavelli"><GolgInsta /></Link>
                     &nbsp;
-                    <Link href="#"><GoldTwitter /></Link>
+                    <Link href="https://twitter.com/onlymachiavelli"><GoldTwitter /></Link>
                     &nbsp;
-                    <Link href="#"><GoldLinkedin /></Link>
+                    <Link href="https://www.linkedin.com/in/alaa-ddin-472a651b9/"><GoldLinkedin /></Link>
                 </div>
             </nav>
         </>
