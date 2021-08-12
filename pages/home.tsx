@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import Top from './../src/useFront/home/top/top'
+import Top from './../src/useFront/home/slide'
 
 const Home = () => {
 
