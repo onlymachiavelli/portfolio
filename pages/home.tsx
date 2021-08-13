@@ -1,6 +1,5 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 import Top from './../src/useFront/home/slide'
-
 const Home = () => {
 
     const Style = {
