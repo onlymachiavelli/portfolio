@@ -10,12 +10,11 @@
     display: none;
   }
   .nav {
-    display: block !important;
     width: 100%;
     height: auto;
     background: rgb(75, 68, 4);
     margin: auto !important;
-
+    display: none;
     padding: 20px 0px 20px 40px;
   }
   .nav a {

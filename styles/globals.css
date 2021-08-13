@@ -109,6 +109,7 @@ body {
 }
 .nav {
   margin: 22px;
+  display: block;
 }
 .nav a {
   color: #fff;

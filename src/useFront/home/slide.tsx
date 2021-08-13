@@ -1,10 +1,11 @@
-import React, {useState,} from 'react'
+import React, {useState,useEffect} from 'react'
 import {Rocket, Machiavelli, Logo, Instagram, Twitter, Linkedin, Menu} from './../icons'
 import Link from 'next/link'
 
 const Top = () =>{
     const [Res, setRes] = useState("none")
-    const Nav = () => (Res === "none" ? setRes("block") :setRes("none"))
+    const Nav = () => setRes(Res === "none" ? "block" :"none")
+
     return(
         <main className="slide">
             <header>
@@ -15,7 +16,7 @@ const Top = () =>{
                             <Machiavelli/>
                         </div>
                     </Link>
-                    <nav className="nav">
+                    <nav className="nav" style={{display:Res}}>
                         <Link href="#">
                             <a className="current_page">Home</a>
                         </Link>
