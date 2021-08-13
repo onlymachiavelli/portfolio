@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Rocket, Machiavelli, Logo, Instagram, Twitter, Linkedin} from './../icons'
 import Link from 'next/link'
 const Top = () =>{
@@ -14,7 +14,9 @@ const Top = () =>{
                         </div>
                     </Link>
                     <nav className="nav">
-                        <Link href="#">Home</Link>
+                        <Link href="#">
+                            <a className="current_page">Home</a>
+                        </Link>
                         <Link href="#">Skills</Link>
                         <Link href="#">Projects</Link>
                         <Link href="#">Works</Link>

@@ -126,6 +126,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   overflow: hidden;
+  padding-bottom: 10px;
+  transition-duration: 0.5s;
 }
 
 .nav a:before {
@@ -147,4 +149,14 @@ body {
 }
 .nav a:hover:before {
   right: 0;
+}
+
+.nav a:hover {
+  color: #bcaa0b;
+}
+
+.current_page {
+  color: #bcaa0b !important;
+  border-bottom: 4px solid #bcaa0b;
+  padding-bottom: 6px !important;
 }
