@@ -1,9 +1,9 @@
 import React, {useState,useEffect} from 'react'
-import {Rocket, Machiavelli, Logo, Instagram, Twitter, Linkedin, Menu} from './../icons'
+import {Rocket, Machiavelli, Logo, Instagram, Twitter, Linkedin, Menu, MainLogo} from './../icons'
 import Link from 'next/link'
 
 const Top = () =>{
-    const [Res, setRes] = useState("none")
+    const [Res, setRes] = useState("block")
     const Nav = () => setRes(Res === "none" ? "block" :"none")
 
     return(
@@ -51,6 +51,25 @@ const Top = () =>{
                     </div>
                 </nav>
             </header>
+
+            <div className="main_info">
+                <article>
+                    <p id="title_info">
+                        {">_"} HI Im Machiavelli
+                    </p>
+                    <p id="desc_info">
+                        Self taught Programmer, Mern stack developer
+                        Who’s hoping to go to space 
+                        one day, and beat the bustard Jeff & Elon
+                    </p>
+                    <button className="hirebtn">HireMe !</button>
+                </article>
+                <aside>
+                    <div className="Rocket_container">
+                        <Rocket/>
+                    </div>
+                </aside>
+            </div>
         </main>
     )
 

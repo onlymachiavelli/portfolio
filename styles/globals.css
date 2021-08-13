@@ -179,3 +179,26 @@ body {
   border-radius: 3px;
   cursor: pointer;
 }
+.main_info {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  transform: translateY(-50%);
+}
+#title_info {
+  color: #fff;
+  font-size: 37px;
+}
+#desc_info {
+  color: #fff;
+  width: 360px;
+  font-size: 24px;
+  padding-left: 60px;
+}
+.Rocket_container {
+  margin-top: 40px;
+}
