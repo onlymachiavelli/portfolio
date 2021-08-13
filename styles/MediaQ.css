@@ -1,3 +1,28 @@
-
-
-
+@media (max-width: 840px) {
+  .navbar {
+    display: block !important;
+    padding: 0px !important;
+  }
+  .logo {
+    margin: 20px;
+  }
+  .scl {
+    display: none;
+  }
+  .nav {
+    display: block !important;
+    width: 100%;
+    height: auto;
+    background: rgb(75, 68, 4);
+    margin: auto !important;
+    font-size: 30px;
+    padding: 20px 0px 20px 40px;
+    display: none !important;
+  }
+  .nav a {
+    display: table;
+  }
+  .btnres {
+    display: block !important;
+  }
+}

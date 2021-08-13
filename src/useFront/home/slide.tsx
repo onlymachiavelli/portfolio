@@ -1,6 +1,7 @@
-import React, {useState} from 'react'
-import {Rocket, Machiavelli, Logo, Instagram, Twitter, Linkedin} from './../icons'
+import React, {useState,} from 'react'
+import {Rocket, Machiavelli, Logo, Instagram, Twitter, Linkedin, Menu} from './../icons'
 import Link from 'next/link'
+
 const Top = () =>{
 
     return(
@@ -40,6 +41,11 @@ const Top = () =>{
                                 <Linkedin/>
                             </i>
                         </Link>
+                    </div>
+                    <div className="btnres">
+                        <button>
+                            <Menu/>
+                        </button>
                     </div>
                 </nav>
             </header>
