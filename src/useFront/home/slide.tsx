@@ -26,12 +26,12 @@ const Top = () =>{
                                 <Instagram/>
                             </i>
                         </Link>
-                        <Link href="#">
+                        <Link href="https://twitter.com/onlymachiavelli">
                             <i aria-hidden="true">
                                 <Twitter/>
                             </i>
                         </Link>
-                        <Link href="#">
+                        <Link href="https://www.linkedin.com/in/alaa-ddin-472a651b9/">
                             <i aria-hidden="true">
                                 <Linkedin/>
                             </i>
