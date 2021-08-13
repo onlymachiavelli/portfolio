@@ -113,9 +113,11 @@ body {
   color: #fff;
   margin: 10px;
 }
+
 .scl {
   position: absolute;
   right: 20px;
+  top: 42px;
 }
 
 .nav a {
