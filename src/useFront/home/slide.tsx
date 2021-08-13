@@ -3,7 +3,8 @@ import {Rocket, Machiavelli, Logo, Instagram, Twitter, Linkedin, Menu} from './.
 import Link from 'next/link'
 
 const Top = () =>{
-
+    const [Res, setRes] = useState("none")
+    const Nav = () => (Res === "none" ? setRes("block") :setRes("none"))
     return(
         <main className="slide">
             <header>
@@ -43,7 +44,7 @@ const Top = () =>{
                         </Link>
                     </div>
                     <div className="btnres">
-                        <button>
+                        <button onClick={Nav}>
                             <Menu/>
                         </button>
                     </div>
