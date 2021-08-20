@@ -231,6 +231,8 @@ body {
   border: none;
   width: 45px;
   height: 45px;
+  padding-top: 7px;
+  padding-left: 8px;
   cursor: pointer;
   box-shadow: 0px 0px 4px 0px rgba(255, 255, 255, 0.637);
 }
@@ -240,4 +242,13 @@ body {
   animation-duration: 0.5s;
 }
 @keyframes handdown {
+  0% {
+    margin-top: initial;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: initial;
+  }
 }
