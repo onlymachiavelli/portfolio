@@ -72,7 +72,9 @@ const Top = () =>{
             </div>
             <div className="down_btn">
                 <button>
-                        <HandDown/>
+                       <p id="anim_hand">
+                           <HandDown/>
+                       </p>
                 </button>
             </div>
         </main>
