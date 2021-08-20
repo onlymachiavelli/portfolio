@@ -1,5 +1,5 @@
 import React, {useState,useEffect} from 'react'
-import {Rocket, Machiavelli, Logo, Instagram, Twitter, Linkedin, Menu, MainLogo} from './../icons'
+import {Rocket, Machiavelli, Logo, Instagram, Twitter, Linkedin, Menu, MainLogo, HandDown} from './../icons'
 import Link from 'next/link'
 
 const Top = () =>{
@@ -69,11 +69,11 @@ const Top = () =>{
                         <Rocket/>
                     </div>
                 </aside>
-                <div className="down_btn">
-                    <button>
-                        
-                    </button>
-                </div>
+            </div>
+            <div className="down_btn">
+                <button>
+                        <HandDown/>
+                </button>
             </div>
         </main>
     )
