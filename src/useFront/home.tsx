@@ -2,13 +2,13 @@ import React, { useState, useEffect} from 'react'
 
 
 import styles from './../../styles/Home.module.css'
+import Navbar from './Navbar'
 
-
-const Home = () =>{
+const Home = ({...props}) =>{
     return (
-        <div>
-            hello world
-        </div>
+        <main className={styles.main_container}>
+            <Navbar/>
+        </main>
     )
 }
 
