@@ -16,3 +16,50 @@
 .logo {
   margin: 10px;
 }
+
+.nav {
+  display: block;
+  margin: 20px;
+}
+.nav a {
+  color: #fff;
+  margin: 10px;
+  padding-bottom: 10px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+  transition-duration: 0.5s;
+}
+
+.nav a:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #bcaa0b;
+  height: 4px;
+  margin-top: 20px !important ;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.nav a:hover:before {
+  right: 0;
+}
+
+.nav a:hover {
+  color: #f3dd13;
+}
+.current_page {
+  color: #bcaa0b !important;
+  padding-bottom: 6px !important;
+}
