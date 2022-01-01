@@ -63,3 +63,13 @@
   color: #f3dd13 !important;
   padding-bottom: 6px !important;
 }
+
+.socialMedia {
+  position: absolute;
+  right: 10px;
+  margin-top: 20px;
+}
+
+.socialMedia a {
+  margin: 5px;
+}
