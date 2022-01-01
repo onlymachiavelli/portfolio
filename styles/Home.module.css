@@ -83,6 +83,9 @@
   cursor: pointer;
   transition-duration: 0.5s;
 }
+.ResBtn {
+  display: none;
+}
 .ResBtn button:hover {
   background: #bcaa0b;
   border: 1px solid #bcaa0b;
@@ -105,5 +108,8 @@
   }
   .navbar {
     flex-direction: column;
+  }
+  .ResBtn {
+    display: initial !important;
   }
 }
