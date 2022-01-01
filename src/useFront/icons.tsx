@@ -353,9 +353,9 @@ export const Premiere = () => {
     )
 }
 
-export const Menu = () => {
+export const Menu = ({...props}) => {
     return (
-        <svg width="22" height="12" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width={props.Width} height={props.Height} viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M28 4.2H0V0H28V4.2ZM28 12.6H0V8.4H28V12.6ZM0 21H28V16.8H0V21Z" fill="white" />
         </svg>
     )

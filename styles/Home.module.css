@@ -73,3 +73,37 @@
 .socialMedia a {
   margin: 5px;
 }
+.ResBtn button {
+  background: none;
+  width: 44px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding-top: 4px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.ResBtn button:hover {
+  background: #bcaa0b;
+  border: 1px solid #bcaa0b;
+}
+
+/**/
+
+@media (max-width: 770px) {
+  .nav {
+    display: block !important;
+    background-color: #1d1e22;
+    width: 100%;
+    height: auto;
+    margin: 0px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .nav a {
+    display: block;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+}
