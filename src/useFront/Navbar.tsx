@@ -2,6 +2,15 @@ import React, {useState, useEffect} from "react"
 import Link from 'next/link'
 import styles from './../../styles/Home.module.css'
 import {Machiavelli, Logo, GoldLinkedin, GoldTwitter, GoldInsta, Menu} from './icons'
+export const useNavbar = () =>{
+    const [menu, setMenu] = useState("block")
+    useEffect(()=>{
+
+    }, [])
+    return {menu, setMenu} 
+}
+
+
 const Navbar = ({...props}) =>{
     return (
         <nav className={styles.navbar}>
