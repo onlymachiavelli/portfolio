@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react"
 import Link from 'next/link'
 import styles from './../../styles/Home.module.css'
-import {Machiavelli, Logo, Rust} from './icons'
+import {Machiavelli, Logo, Instagram, Twitter , Linkedin} from './icons'
 const Navbar = ({...props}) =>{
     return (
         <nav className={styles.navbar}>
@@ -24,8 +24,10 @@ const Navbar = ({...props}) =>{
                 <Link href="/">Works</Link>
                 <Link href="/">GetHelped</Link>
             </nav>
+            <div className={styles.socialMedia}>
 
-        </nav>
+            </div>
+        </nav>  
     )
 }
 
