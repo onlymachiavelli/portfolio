@@ -22,7 +22,13 @@ const Navbar = ({...props}) =>{
                     </a>
                 </Link>
             </div>
-            
+            <div className={styles.ResBtn}>
+                <button type="button" onClick={()=>{
+                    
+                }} >
+                    <Menu Width="20" Height="20" />
+                </button>
+            </div>
             <nav className={styles.nav}>
                 <Link href="/">
                     <a  className={styles.current_page}>
@@ -38,15 +44,7 @@ const Navbar = ({...props}) =>{
                 <a href=""><GoldInsta Width="21" Heght="21" /></a>
                 <a href=""><GoldTwitter Width="21" Height = "21" /></a>
                 <a href=""><GoldLinkedin Width="21" Height="21" /></a>
-                <div className={styles.ResBtn}>
-                <button type="button" onClick={()=>{
-                    
-                }} >
-                    <Menu Width="20" Height="20" />
-                </button>
             </div>
-            </div>
-            
             
         </nav>  
     )

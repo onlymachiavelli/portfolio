@@ -85,12 +85,18 @@
 }
 .ResBtn {
   display: none;
+  position: absolute;
+  right: 15px;
+  top: 12px;
 }
 .ResBtn button:hover {
   background: #bcaa0b;
   border: 1px solid #bcaa0b;
 }
 
+.downScl {
+  display: none;
+}
 /**/
 
 @media (max-width: 770px) {
@@ -111,5 +117,8 @@
   }
   .ResBtn {
     display: initial !important;
+  }
+  .socialMedia {
+    display: none; /*Go back to this later*/
   }
 }
