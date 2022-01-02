@@ -41,9 +41,9 @@ const Navbar = ({...props}) =>{
                 <Link href="/">GetHelped</Link>
             </nav>
             <div className={styles.socialMedia}>
-                <a href=""><GoldInsta Width="21" Heght="21" /></a>
-                <a href=""><GoldTwitter Width="21" Height = "21" /></a>
-                <a href=""><GoldLinkedin Width="21" Height="21" /></a>
+                <a href="https://www.instagram.com/onlymachiavelli/"><GoldInsta Width="21" Heght="21" /></a>
+                <a href="https://www.twitter.com/onlymachiavelli/"><GoldTwitter Width="21" Height = "21" /></a>
+                <a href="https://www.linkedin.com/in/alaa-ddin-472a651b9/"><GoldLinkedin Width="21" Height="21" /></a>
             </div>
             
         </nav>  
