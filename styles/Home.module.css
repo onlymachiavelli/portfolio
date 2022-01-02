@@ -74,10 +74,10 @@
   margin: 5px;
 }
 .ResBtn button {
-  background: none;
+  background: #bcaa0b;
+  border: 1px solid #bcaa0b;
   width: 44px;
   height: 40px;
-  border: 1px solid #fff;
   border-radius: 3px;
   padding-top: 4px;
   cursor: pointer;
@@ -89,10 +89,6 @@
   right: 15px;
   top: 12px;
 }
-.ResBtn button:hover {
-  background: #bcaa0b;
-  border: 1px solid #bcaa0b;
-}
 
 .downScl {
   display: none;
@@ -101,7 +97,7 @@
 
 @media (max-width: 770px) {
   .nav {
-    display: block !important;
+    display: none !important;
     background-color: #1d1e22;
     width: 100%;
     height: auto;
