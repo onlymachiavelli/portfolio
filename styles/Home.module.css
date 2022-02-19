@@ -116,6 +116,7 @@
   width: 400px;
   padding-left: 50px;
 }
+
 .hireBtn {
   width: 300px;
   height: 50px;
@@ -152,5 +153,28 @@
   }
   .socialMedia {
     display: none; /*Go back to this later*/
+  }
+}
+
+@media (max-width: 1066px) {
+  .homeContainer {
+    flex-direction: column-reverse;
+  }
+  .homeContainer {
+    width: 100% !important;
+  }
+  .homeTxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #name,
+  #description {
+    padding: 0px !important;
+    text-align: center;
+  }
+  .hireBtn {
+    margin: 0px !important;
   }
 }
