@@ -1,6 +1,6 @@
 import React,{} from 'react'
 import styles from './../../styles/Home.module.css'
-import {MainLogo} from './icons'
+import {MainLogo, Rocket} from './icons'
 const HomeContainer = () =>{
     return(
         <main className={styles.homeContainer}>
@@ -8,7 +8,7 @@ const HomeContainer = () =>{
 
             </div>
             <div className={styles.homeSvg}>
-                <MainLogo/>
+                <Rocket Width="350" Height="auto" />
             </div>
         </main>
     )

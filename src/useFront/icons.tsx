@@ -361,9 +361,9 @@ export const Menu = ({...props}) => {
     )
 }
 
-export const MainLogo = () => {
+export const MainLogo = ({...props}) => {
     return (
-        <svg width="250" height="200" viewBox="0 0 95 93" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width={props.Width} height={props.Height} viewBox="0 0 95 93" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M61.9585 16.3073L66.124 23.0046V70.7549H55.3071L55.6871 26.8137L61.9585 16.3073Z" fill="#D0CFCE" />
             <path d="M33.2236 16.6302L28.7045 22.8367V70.5857L39.6665 70.113L39.0991 27.1508L33.2236 16.6302Z" fill="#D0CFCE" />
             <path d="M37.3601 74.1907C37.3601 74.1907 39.0226 32.9892 38.6927 22.6571C38.376 12.8043 47.4538 7.84816 47.4538 7.84816C47.4538 7.84816 56.5316 12.8043 56.2149 22.6571C55.8851 32.9892 57.5476 74.1907 57.5476 74.1907H37.3601Z" fill="#C9872B" />
@@ -439,9 +439,9 @@ export const GoldLinkedin = ({...props}) => {
     )
 }
 
-export const Rocket = () => {
+export const Rocket = ({...props}) => {
     return (
-        <svg width="400" height="430" viewBox="0 0 210 281" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width={props.Width} height={props.Height} viewBox="0 0 210 281" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Frame10">
                 <g id="Group4">
                     <path id="Vector" d="M168.42 147.684C174.816 157.368 177.984 168.605 177.323 179.257C176.661 189.91 172.216 199.234 164.832 205.456C149.08 216.994 101.896 208.869 86.9414 207.368C90.0209 192.658 98.7963 148.463 114.549 136.924C130.302 125.385 155.588 130.165 168.42 147.684Z" fill="#171717" />
