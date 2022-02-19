@@ -41,9 +41,9 @@ const Navbar = ({...props}) =>{
                 <Link href="/">GetHelped</Link>
             </nav>
             <div className={styles.socialMedia}>
-                <a href="https://www.instagram.com/onlymachiavelli/"><GoldInsta Width="18" Heght="18" /></a>
-                <a href="https://www.twitter.com/onlymachiavelli/"><GoldTwitter Width="18" Height = "18" /></a>
-                <a href="https://www.linkedin.com/in/alaa-ddin-472a651b9/"><GoldLinkedin Width="18" Height="18" /></a>
+                <a href="https://www.instagram.com/onlymachiavelli/" target="_blank" ><GoldInsta Width="18" Heght="18" /></a>
+                <a href="https://www.twitter.com/onlymachiavelli/" target="_blank" ><GoldTwitter Width="18" Height = "18" /></a>
+                <a href="https://www.linkedin.com/in/alaa-ddin-472a651b9/" target="_blank" ><GoldLinkedin Width="18" Height="18" /></a>
             </div>
             
         </nav>  
