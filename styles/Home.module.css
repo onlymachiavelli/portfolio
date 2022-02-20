@@ -160,6 +160,9 @@
     display: none; /*Go back to this later*/
   }
 }
+.homeSvg {
+  padding-top: 50px;
+}
 
 @media (max-width: 1066px) {
   .homeContainer {
