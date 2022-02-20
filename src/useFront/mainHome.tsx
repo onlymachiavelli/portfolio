@@ -14,7 +14,7 @@ const HomeContainer = () =>{
                 <button className={styles.hireBtn}>Hire Me</button>
             </div>
             <div className={styles.homeSvg}>
-                <Rocket Width="300" Height="auto" />
+                <Rocket Width="auto" Height="500px" Id={styles.Rocket} />
             </div>
         </main>
     )

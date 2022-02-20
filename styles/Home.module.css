@@ -124,11 +124,16 @@
   margin-left: 50px;
   color: #fff;
   font-weight: 600;
-  background-color: #bcaa0b;
+  background-color: #96880f;
   border: none;
   box-shadow: 0px 4px 8px #84780c;
   cursor: pointer;
   border-radius: 5px;
+  transition-duration: 0.5s;
+}
+.hireBtn:hover {
+  background: #bcaa0b;
+  box-shadow: 0px 6px 11px #84780c;
 }
 /**/
 
@@ -176,5 +181,10 @@
   }
   .hireBtn {
     margin: 0px !important;
+  }
+
+  #Rocket {
+    width: auto;
+    height: 200px;
   }
 }
