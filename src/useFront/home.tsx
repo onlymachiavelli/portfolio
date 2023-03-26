@@ -4,7 +4,7 @@ import React, { useState, useEffect} from 'react'
 import styles from './../../styles/Home.module.css'
 import Navbar from './Navbar'
 import HomeContainer from './mainHome'
-const Home = ({...props}) =>{
+const TST = ({...props}) =>{
     return (
         <main className={styles.main_container}>
             <Navbar/>
@@ -14,4 +14,4 @@ const Home = ({...props}) =>{
 }
 
 
-export default Home
+export default TST

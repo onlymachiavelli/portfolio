@@ -8,8 +8,17 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Quicksand", "sans-serif"],
+
+      },
+      colors: {
+        dark : "#1D1D1D"
+      }
+    },
   },
   plugins: [],
 }

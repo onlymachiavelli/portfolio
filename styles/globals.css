@@ -22,3 +22,8 @@ body {
   font-family: var(--OFF);
   outline: none;
 }
+
+
+body {
+  background : #1d1d1d;
+}
