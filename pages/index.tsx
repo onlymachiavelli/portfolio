@@ -5,7 +5,7 @@ import Head from "next/head"
 import Navbar from "../src/components/navbar"
 const App = () => {
   return (
-    <main className="w-full h-auto overflow-auto bg-dark">
+    <main className="w-11/12 h-auto overflow-auto bg-dark m-auto pt-5">
       <Head>
         <title>MR Machiavelli</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
