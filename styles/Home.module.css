@@ -39,5 +39,7 @@
 }
 .current_page {
   color: #BD2F2F !important;
+  border-bottom : 1px solid #BD2F2F;
+  font-weight: bold;
 }
 

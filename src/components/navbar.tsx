@@ -10,22 +10,19 @@ const Navbar = () =>{
                     <motion.div 
                         initial={{ scale: 0 }}
                         animate={{ rotate: 360, scale: 1 }}>
-                        
-
-                        <a href='#' >
-                        <Logo Width={"150"}/></a>
+                        <Logo Width={"150"}/>
                     </motion.div>
                 </Link>
             </nav>
             
 
             <nav className={`${styles.nav} m-1.5 ml-10 pb-5 overflow-hidden `}>
-                <Link href={""}><a href="" className={`font-semiBold ${styles.current_page}`}>HOME</a></Link>
-                <Link href={""}><a href="">SERVICES</a></Link>
-                <Link href={""}><a href="">PORTFOLIO</a></Link>
-                <Link href={""}><a href="">MY WORKS</a></Link>
-                <Link href={""}><a href="">CONTACT</a></Link>
-                <Link href={""}><a href="">ABOUT</a></Link>
+                <Link href={""}className={`hover:font-bold ${styles.current_page}`}>HOME</Link>
+                <Link href={""} className={"hover:font-bold"}>SERVICES</Link>
+                <Link href={""}className={"hover:font-bold"}>PORTFOLIO</Link>
+                <Link href={""}className={"hover:font-bold"}>MY WORKS</Link>
+                <Link href={""}className={"hover:font-bold"}>CONTACT</Link>
+                <Link href={""}className={"hover:font-bold"}>ABOUT</Link>
             </nav>
         </header>
     )
