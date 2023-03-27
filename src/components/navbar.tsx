@@ -2,6 +2,7 @@ import styles from './../../styles/Home.module.css'
 import { Logo } from "./svg"
 import Link from "next/link"
 import {motion} from 'framer-motion'
+
 const Navbar = () =>{
     return (
         <header className='flex overflow-hidden w-full'>
@@ -20,11 +21,12 @@ const Navbar = () =>{
                 <Link href={""}className={"hover:font-bold"}>CONTACT</Link>
                 <Link href={""}className={"hover:font-bold"}>ABOUT</Link> 
             </nav>
-                <div className='flex-1'>
+                <div className='flex-1'></div>
+                <div className='pt-1 lang'>
+                    <button className={`text-red text-xs px-1 border-b border-red`}>ENG</button>
+                    <button className='text-white text-xs px-1'>FR</button>
+                    <button className='text-white text-xs px-1'>DE</button>
                 </div>
-                <button className={`text-white text-xs px-1`}>ENG</button>
-                <button className='text-white text-xs px-1'>FR</button>
-                <button className='text-white text-xs px-1'>DE</button>
                  
             
         </header>

@@ -1,5 +1,5 @@
 
-.nav a {
+.nav a, .lang a {
   color: #fff;
   margin: 10px;
   padding-bottom: 10px;
@@ -13,7 +13,7 @@
   transition-duration: 0.5s;
 }
 
-.nav a:before {
+.nav a:before, .lang a:before {
   content: "";
   position: absolute;
   z-index: 0;
@@ -30,11 +30,11 @@
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.nav a:hover:before  {
+.nav a:hover:before , .lang a:hover:before {
   right: 0;
 }
 
-.nav a:hover {
+.nav a:hover , .lang a:hover {
   color: #BD2F2F;
 }
 .current_page {
@@ -42,4 +42,6 @@
   border-bottom : 1px solid #BD2F2F;
   font-weight: bold;
 }
+
+
 

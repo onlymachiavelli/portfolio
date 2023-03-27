@@ -10,13 +10,18 @@ module.exports = {
   ],
 
   theme: {
+
+    screens:{
+      tablet : "887px"
+    },
     extend: {
       fontFamily: {
         sans: ["Quicksand", "sans-serif"],
 
       },
       colors: {
-        dark : "#101010"
+        dark : "#101010",
+        red :"#BD2F2F"
       }
     },
   },
