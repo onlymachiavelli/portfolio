@@ -1,10 +1,14 @@
+import * as React from 'react'
 import styles from './../../styles/Home.module.css'
 import { Logo } from "./svg"
 import Link from "next/link"
 import {motion} from 'framer-motion'
 
+
 const Navbar = () =>{
+    const [burger, setBurger]= React.useState("hidden")
     return (
+        
         <header className='flex overflow-hidden w-full'>
                 <Link href={"/"}>
                     <motion.div 
@@ -13,7 +17,7 @@ const Navbar = () =>{
                         <Logo Width={"150"}/>
                     </motion.div>
                 </Link>
-            <nav className={`${styles.nav} pl-10 p-1 pb-3 inline `}>
+            <nav className={`${styles.nav} pl-10 p-1 pb-3 inline tablet:${burger} `}>
                 <Link href={""}className={`hover:font-bold ${styles.current_page}`}>HOME</Link>
                 <Link href={""} className={"hover:font-bold"}>SERVICES</Link>
                 <Link href={""}className={"hover:font-bold"}>PORTFOLIO</Link>
