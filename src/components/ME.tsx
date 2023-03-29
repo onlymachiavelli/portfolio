@@ -7,20 +7,21 @@ const Me = () =>{
         <section className='w-full h-screen flex  justify-center items-center'>
             <aside className='w-2/5 h-full flex items-center justify-center '>
                 <div className='flex w-auto h-auto m-auto'>
-                <div className='w-80 h-72 bg-red block absolute mt-5 ml-5'></div>
-                <div className='w-80 h-72 bg-red block absolute'></div>
-
-                    <Image src={mE} className={"w-80 h-72 z-10 mt-2.5 ml-2.5 absolute block"} />
+                    
+                    <div className='w-auto h-auto  shadow-white shadow-sm '>
+                        <Image src={mE} className={"w-80 h-72 hover:blur-sm duration-500"}  alt="ME"/>
+                        <div className='w-full h-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'></div>
+                    </div>
 
 
                 </div>
             </aside>
-            <aside className='w-2/5 h-full'>
-            <p className='text-red font-bold text-xl '>
+            <aside className='w-2/5 h-full flex items-center justify-center flex-col '>
+            <p className='text-red font-bold text-xl text-left  block left'>
                         --HELLO THERE
             </p>
 
-                    <p className='font-bold text-white'>
+                    <p className='font-bold text-white '>
                     Hello there! My name is Alaa Barka, and I am a Full Stack Web Developer and Cross Platform Developer. 
                     <br/><br/>
                     I am interested in exploring the fields of Blockchain, Cybersecurity, AI, and Machine Learning.
