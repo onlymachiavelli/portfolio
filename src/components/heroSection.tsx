@@ -12,7 +12,7 @@ const HeroSection = () =>{
         <section className='w-full tablet:h-5/6 h-auto flex align-center tablet:justify-center tablet:items-center flex-col-reverse tablet:flex-row'>
 
 
-            <aside className='tablet:w-1/2 w-full pl-20 tablet:pl-20 '>
+            <aside className='tablet:w-1/2 w-full pl-4 tablet:pl-20 '>
 
               <div className='block  tablet:pl-20 pt-10 tablet:pt-0'>
                 <p className='text-red font-bold text-xl '>
@@ -23,9 +23,9 @@ const HeroSection = () =>{
                         My name is <b className='text-red inline font-bold'>Alaa Barka</b>, CS Student @ ESSTHS. I am a Full-Stack Web Developer. Scroll down to learn more about me.
                     </p>   
 
-                    <div className='pt-10 space-x-0 tablet:space-x-2 grid gird-cols tablet:block'>
+                    <div className='pt-10 space-x-0 tablet:space-x-2 grid gird-cols tablet:block '>
 
-                        <Link href="" className='bg-red text-white px-14 w-1/2 py-3 mt-10 text-sm'>Download my CV</Link>
+                        <Link href="" className='bg-red text-white px-14 w-1/2 py-3 mt-10 text-sm bl'>Download my CV</Link>
                         <Link href="" className='bg-auto text-white px-14 w-1/2 py-3 mt-10 border duration-1000 hover:bg-[#ffffff70] text-sm'>Explore more</Link>
                     </div> 
               </div>
