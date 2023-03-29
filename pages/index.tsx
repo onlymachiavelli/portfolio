@@ -4,6 +4,7 @@ import TST from "../src/useFront/home"
 import Head from "next/head"
 import Navbar from "../src/components/navbar"
 import HeroSection from "../src/components/heroSection"
+import Me from "../src/components/ME"
 const App = () => {
   return (
     <main className=" w-full h-auto overflow-auto bg-dark m-auto pt-5">
@@ -17,6 +18,7 @@ const App = () => {
       <section className="w-full h-screen">
         <Navbar />
         <HeroSection/>
+        <Me/>
       </section>
       
     </main>

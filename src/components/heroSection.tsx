@@ -1,5 +1,5 @@
 import * as React from 'react'
-import {Doggo} from './svg'
+import {Doggo, Bottom} from './svg'
 import { AnimatePresence , motion } from 'framer-motion'
 import Link from 'next/link'
 const Random = (min:any, max:any) : any =>{
@@ -54,7 +54,11 @@ const HeroSection = () =>{
             </AnimatePresence>
             </aside>
 
-            <div></div>
+            <div>
+
+                
+            </div>
+            
         </section>
     )
 }
