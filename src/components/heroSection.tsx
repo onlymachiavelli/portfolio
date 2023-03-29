@@ -14,7 +14,7 @@ const HeroSection = () =>{
 
             <aside className='tablet:w-1/2 w-full pl-20 tablet:pl-20 '>
 
-              <div className='block  tablet:pl-20'>
+              <div className='block  tablet:pl-20 pt-10 tablet:pt-0'>
                 <p className='text-red font-bold text-xl '>
                         --HELLO THERE
                     </p>
@@ -25,8 +25,8 @@ const HeroSection = () =>{
 
                     <div className='pt-10 space-x-0 tablet:space-x-2 grid gird-cols tablet:block'>
 
-                        <Link href="" className='bg-red text-white px-14 w-1/2 py-3 mt-10'>Download my CV</Link>
-                        <Link href="" className='bg-auto text-white px-14 w-1/2 py-3 mt-10 border duration-1000 hover:bg-[#ffffff70]'>Explore more</Link>
+                        <Link href="" className='bg-red text-white px-14 w-1/2 py-3 mt-10 text-sm'>Download my CV</Link>
+                        <Link href="" className='bg-auto text-white px-14 w-1/2 py-3 mt-10 border duration-1000 hover:bg-[#ffffff70] text-sm'>Explore more</Link>
                     </div> 
               </div>
             </aside>
