@@ -14,7 +14,7 @@ const HeroSection = () =>{
                 </p>
                 <p className='text-red font-bold text-4xl py-10'>IM ALAA BARKA</p>
                 <p className='w-1/2 text-white font-bold'>
-                    My name is <p className='text-red inline font-bold'>Alaa Barka</p>, CS Student @ ESSTHS. I am a Full-Stack Web Developer. Scroll down to learn more about me.
+                    My name is <b className='text-red inline font-bold'>Alaa Barka</b>, CS Student @ ESSTHS. I am a Full-Stack Web Developer. Scroll down to learn more about me.
                 </p>
             </aside>
             <aside className='w-3/12'>

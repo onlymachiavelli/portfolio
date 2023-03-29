@@ -6,7 +6,7 @@ import Navbar from "../src/components/navbar"
 import HeroSection from "../src/components/heroSection"
 const App = () => {
   return (
-    <main className="tablet:w-11/12 w-full h-auto overflow-auto bg-dark m-auto pt-5">
+    <main className=" w-full h-auto overflow-auto bg-dark m-auto pt-5">
       <Head>
         <title>MR Machiavelli</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
