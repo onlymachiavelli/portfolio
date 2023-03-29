@@ -14,9 +14,10 @@ const App = () => {
         <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" / >
       </Head>
 
-      <Navbar/>
-
-      <HeroSection/>
+      <section className="w-full h-screen">
+        <Navbar />
+        <HeroSection/>
+      </section>
       
     </main>
   )
