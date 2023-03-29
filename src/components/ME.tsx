@@ -9,8 +9,8 @@ const Me = () =>{
                 <div className='flex w-auto h-auto m-auto'>
                     
                         
-                            <div className='w-80 h-72 bg-red '>
-                                <Image src={mE} className={"w-80 h-72 ml-2.5 pr-2.5 pb-2.5 mt-2.5 bor"}  alt="ME"/>
+                            <div className='w-80 h-72 bg-red ro '>
+                                <Image src={mE} className={"w-80 h-72 ml-2.5 pr-2.5 pb-2.5 mt-2.5 bor rotate-12 bg-red"}  alt="ME"/>
                             </div>
 
 

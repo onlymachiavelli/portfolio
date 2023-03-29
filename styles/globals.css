@@ -68,3 +68,6 @@ body {
 .bor{
   border:10px solid #BD2F2F;
 }
+.ro{
+  transform:rotate(-8deg)
+}
