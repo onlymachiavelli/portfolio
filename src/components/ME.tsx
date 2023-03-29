@@ -10,7 +10,7 @@ const Me = () =>{
                     
                         
                             <div className='w-80 h-72 bg-red '>
-                                <Image src={mE} className={"w-80 h-72 ml-1 mt-1 border-8 border-red"}  alt="ME"/>
+                                <Image src={mE} className={"w-80 h-72 ml-5 pr-5 pb-5 mt-5 bor"}  alt="ME"/>
                             </div>
 
 
