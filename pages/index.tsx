@@ -3,6 +3,7 @@ import styles from "./../styles/Home.module.css"
 import TST from "../src/useFront/home"
 import Head from "next/head"
 import Navbar from "../src/components/navbar"
+import HeroSection from "../src/components/heroSection"
 const App = () => {
   return (
     <main className="tablet:w-11/12 w-full h-auto overflow-auto bg-dark m-auto pt-5">
@@ -15,6 +16,7 @@ const App = () => {
 
       <Navbar/>
 
+      <HeroSection/>
       
     </main>
   )
