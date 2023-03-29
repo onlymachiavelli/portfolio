@@ -8,17 +8,17 @@ const Me = () =>{
             <aside className='w-2/5 h-full flex items-center justify-center '>
                 <div className='flex w-auto h-auto m-auto'>
                     
-                    <div className='w-auto h-auto  shadow-white shadow-sm '>
-                        <Image src={mE} className={"w-80 h-72 hover:blur-sm duration-500"}  alt="ME"/>
-                        <div className='w-full h-2 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'></div>
-                    </div>
+                        
+                            <div className='w-80 h-72 bg-red '>
+                                <Image src={mE} className={"w-80 h-72 ml-1 mt-1 border-8 border-red"}  alt="ME"/>
+                            </div>
 
 
                 </div>
             </aside>
             <aside className='w-2/5 h-full flex items-center justify-center flex-col '>
-            <p className='text-red font-bold text-xl text-left  block left'>
-                        --HELLO THERE
+            <p className='text-red font-bold text-xl '>
+            --HELLO THERE
             </p>
 
                     <p className='font-bold text-white '>
