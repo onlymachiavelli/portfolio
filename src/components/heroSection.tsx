@@ -2,6 +2,8 @@ import * as React from 'react'
 import {Doggo, Bottom} from './svg'
 import { AnimatePresence , motion } from 'framer-motion'
 import Link from 'next/link'
+import Meme from './../../public/img/meme.gif'
+import Image from 'next/image'
 const Random = (min:any, max:any) : any =>{
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -42,10 +44,8 @@ const HeroSection = () =>{
                     exit={{ y: -10, opacity: 0 }}
                     transition={{ duration: 0.5 }}
                 >
-                <Doggo
-                    Width="250"
-                    Height="250"
-                />  
+                
+                <Image src={Meme} alt="meme image" width={"250"} height={"250"} /> 
 
                 <p className='text-white font-bold w-1/2'>
                 I know a man who gave up smoking, drinking, s3x, and rich food. He was healthy right up to the day he killed himself.
