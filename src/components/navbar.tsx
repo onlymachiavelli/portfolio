@@ -26,7 +26,7 @@ const Navbar = () =>{
                     <Link href={""}className={"hover:font-bold block tablet:inline"}>CONTACT</Link>
                     <Link href={""}className={"hover:font-bold block tablet:inline"}>ABOUT</Link> 
                 </nav>
-                <div className='tablet:flex-1'></div>
+                <div className='tablet:flex-1'></div> 
                 <div className='pt-1 lang text-center tablet:text-left '>
                     <button className={`text-red text-xs px-1 border-b border-red`}>ENG</button>
                     <button className='text-white text-xs px-1'>FR</button>
