@@ -14,6 +14,7 @@ const App = () => {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com"  />
         <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" / >
+          <meta name="description" content="My name is Alaa Barka, CS Student @ ESSTHS. I am a Full-Stack Web Developer. Scroll down to learn more about me." />
       </Head>
 
       <section className="w-full h-screen">
