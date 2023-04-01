@@ -27,8 +27,8 @@ const HeroSection = () =>{
 
                     <div className='pt-10 space-x-0 tablet:space-x-2 grid gird-cols tablet:block '>
 
-                        <Link href="" className='bg-red text-white tablet:inline  w-1/2 flex tablet:py-4 tablet:px-14 items-center justify-center py-2  tablet:mt-10 mt-5 text-sm bl'>Download my CV</Link>
-                        <Link href="" className='bg-auto text-white tablet:inline tablet:py-4 tablet:px-14  w-1/2 flex items-center justify-center py-2  tablet:mt-10 mt-5 border duration-1000 hover:bg-[#ffffff70] text-sm'>Explore more</Link>
+                        <Link href="" className='bg-red text-white tablet:inline  w-1/2 flex tablet:py-3 tablet:px-14 items-center justify-center py-2  tablet:mt-10 mt-5 text-sm bl'>Download my CV</Link>
+                        <Link href="" className='bg-auto text-white tablet:inline tablet:py-3 tablet:px-14  w-1/2 flex items-center justify-center py-2  tablet:mt-10 mt-5 border duration-1000 hover:bg-[#ffffff70] text-sm'>Explore more</Link>
                     </div> 
               </div>
             </aside>
@@ -45,7 +45,7 @@ const HeroSection = () =>{
                     transition={{ duration: 0.5 }}
                 >
                 
-                <Image src={Meme} alt="meme image" width={"250"} height={"250"} /> 
+                <Image src={Meme} alt="meme image" width={"200"} height={"200"} /> 
 
                 <p className='text-white font-bold w-1/2 text-sm tablet:text-lg'>
                 I know a man who gave up smoking, drinking, s3x, and rich food. He was healthy right up to the day he killed himself.
