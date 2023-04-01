@@ -5,6 +5,7 @@ import Head from "next/head"
 import Navbar from "../src/components/navbar"
 import HeroSection from "../src/components/heroSection"
 import Me from "../src/components/ME"
+import Skills from "../src/components/Skills"
 const App = () => {
   return (
     <main className=" w-full h-auto overflow-auto bg-dark m-auto pt-5">
@@ -19,6 +20,7 @@ const App = () => {
         <Navbar />
         <HeroSection/>
         <Me/>
+        <Skills/>
       </section>
       
     </main>
