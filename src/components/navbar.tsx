@@ -9,7 +9,7 @@ const Navbar = () =>{
     const [burger, setBurger]= React.useState("hidden")
     return (
         
-        <header className='tablet:w-11/12 m-auto flex overflow-hidden tablet:overflow-hidden w-full pb-5'>
+        <header className='tablet:w-11/12 m-auto flex overflow-hidden tablet:overflow-hidden w-full pb-5 tablet:pb-0   '>
                 <Link href={"/"} className={"pl-10 tablet:pl-0"}>
                     <motion.div 
                         initial={{ scale: 0 }}

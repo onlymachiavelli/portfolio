@@ -11,7 +11,7 @@ const HeroSection = () =>{
     const [quotes, setQuotes] : any = React.useState(["Hello Universe not only world !", "Fuck Feminism", "FREE TOP G", "Tourne dans le vide"])
 
     return (
-        <section className='w-full  tablet:h-5/6 h-auto tablet:overflow-hidden flex align-center tablet:justify-center tablet:items-center flex-col-reverse tablet:flex-row'>
+        <section className='w-full  tablet:h-5/6 h-auto tablet:overflow-hidden flex align-center tablet:justify-center tablet:items-center flex-col-reverse tablet:flex-row pb-60 tablet:pb-0'>
 
 
             <aside className='tablet:w-1/2 w-full pl-4 tablet:pl-20 '>
