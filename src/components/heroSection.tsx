@@ -27,8 +27,8 @@ const HeroSection = () =>{
 
                     <div className='pt-10 space-x-0 tablet:space-x-2 grid gird-cols tablet:block '>
 
-                        <Link href="" className='bg-red text-white px-14 w-1/2 py-3 mt-10 text-sm bl'>Download my CV</Link>
-                        <Link href="" className='bg-auto text-white px-14 w-1/2 py-3 mt-10 border duration-1000 hover:bg-[#ffffff70] text-sm'>Explore more</Link>
+                        <Link href="" className='bg-red text-white tablet:inline  w-1/2 flex tablet:py-4 tablet:px-14 items-center justify-center py-2  tablet:mt-10 mt-5 text-sm bl'>Download my CV</Link>
+                        <Link href="" className='bg-auto text-white tablet:inline tablet:py-4 tablet:px-14  w-1/2 flex items-center justify-center py-2  tablet:mt-10 mt-5 border duration-1000 hover:bg-[#ffffff70] text-sm'>Explore more</Link>
                     </div> 
               </div>
             </aside>
