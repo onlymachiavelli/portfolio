@@ -6,6 +6,7 @@ import Navbar from "../src/components/navbar"
 import HeroSection from "../src/components/heroSection"
 import Me from "../src/components/ME"
 import Skills from "../src/components/Skills"
+import Expert from "../src/components/Expret"
 const App = () => {
   return (
     <main className=" w-full h-auto overflow-auto bg-dark m-auto pt-5">
@@ -22,6 +23,7 @@ const App = () => {
         <HeroSection/>
         <Me/>
         <Skills/>
+        <Expert/>
       </section>
       
     </main>

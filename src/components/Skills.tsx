@@ -25,13 +25,13 @@ const Skills = () =>{
         
     ])
     return (
-        <div className='w-full m-auto  h-screen grid grid-row-3 justify-center items-center'>
+        <div className='w-full m-auto  h-auto justify-center items-center pb-10 tablet:px-20'>
             <div>
                 <p className='text-red font-bold text-xl pt-5 tablet:pt-0 pl-10'>
                 --My Skills
                 </p>
 
-                <p className='text-white text-sm w-1/2 pt-5  m-auto'>
+                <p className='text-white text-sm w-1/2 h-auto py-10  m-auto'>
                 Through my diverse experiences across multiple domains, I have developed a wide range of skills and have continuously explored new areas, resulting in a proficiency in various areas.
                 </p>
             </div>
