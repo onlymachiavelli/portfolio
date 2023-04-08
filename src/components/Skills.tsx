@@ -43,7 +43,7 @@ const Skills = () =>{
                         
                         return (
                             
-                            <CardV key={index}  Hide={skill==skills[0] ? true : false}>
+                            <CardV key={index}  Hide={skill==skills[0] ? true : false} >
                                 <p className='text-white text-sm'>{skill}</p>
                             </CardV>
                         )

@@ -12,7 +12,8 @@ module.exports = {
   theme: {
 
     screens:{
-      tablet : "888px"
+      tablet : "888px", 
+      mid : "1230px"
     },
     extend: {
       fontFamily: {
