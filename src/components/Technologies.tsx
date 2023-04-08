@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Card from './TechCards'
-import {Tailwind, Express,React as ReactJS} from './svg'
+import {Tailwind, Express,React as ReactJS, NodeJS} from './svg'
 const Technologies = () =>{
 
     const [skills, setSkills] = React.useState([
@@ -17,8 +17,8 @@ const Technologies = () =>{
             svg : <ReactJS Width="30" Height="30"/>
         },
         {
-            name : "react" , 
-            svg : <ReactJS Width="30" Height="30"/>
+            name : "nodejs" , 
+            svg : <NodeJS Width="30" Height="30"/>
         },
     ])
     return (
