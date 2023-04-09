@@ -247,7 +247,7 @@ export const Gin = ({...props}) =>{
 }
 
 
-export const Tailwind = ({...props}) =>{
+export const TailwindCSS = ({...props}) =>{
     return (
         
         <svg width={props.Width} height={props.Height} viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">

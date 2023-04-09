@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Card from './TechCards'
-import {Mongodb, Express,React as ReactJS, NodeJS, Postgres, Gin, Tailwind} from './svg'
+import {Mongodb, Express,React as ReactJS, NodeJS, Postgres, Gin, TailwindCSS} from './svg'
 const Technologies = () =>{
 
     const [skills, setSkills] = React.useState([
@@ -30,9 +30,9 @@ const Technologies = () =>{
         },
         {
             name : "tailwind" , 
-            svg : <Tailwind Width="30" Height="30"/>
+            svg : <TailwindCSS Width="30" Height="30"/>
         },
-    ])
+    ])  
     return (
         <div className='w-full h-auto bg-dark pb-10 mt-10'>
             <p className='text-red font-bold text-xl block m-auto w-full text-center pb-10'>
