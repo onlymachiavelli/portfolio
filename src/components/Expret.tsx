@@ -4,7 +4,7 @@ import { Pen, Brackets } from './svg'
 
 const Expert = () => {
     return (
-        <div className='w-full h-screen bg-dark tablet:p-20'>
+        <div className='w-full h-auto tablet:h-screen bg-dark tablet:p-20'>
             <p className='text-red font-bold text-xl block m-auto w-full text-center '>
                 --EXPER INT
                 </p>

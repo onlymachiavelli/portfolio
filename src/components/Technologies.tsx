@@ -22,7 +22,7 @@ const Technologies = () =>{
         },
     ])
     return (
-        <div className='w-full h-auto bg-dark pb-10'>
+        <div className='w-full h-auto bg-dark pb-10 mt-10'>
             <p className='text-red font-bold text-xl block m-auto w-full text-center pb-10'>
                 --SKILLED IN
             </p>
