@@ -1,12 +1,12 @@
 import * as React from 'react'
 import Card from './TechCards'
-import {Tailwind, Express,React as ReactJS, NodeJS} from './svg'
+import {Mongodb, Express,React as ReactJS, NodeJS, Postgres, Gin, Tailwind} from './svg'
 const Technologies = () =>{
 
     const [skills, setSkills] = React.useState([
         {
-            name : "Tailwind CSS" , 
-            svg : <Tailwind Width="30" Height="30"/>
+            name : "mongodb" , 
+            svg : <Mongodb Width="30" Height="30"/>
         },
         {
             name : "" , 
@@ -20,6 +20,18 @@ const Technologies = () =>{
             name : "nodejs" , 
             svg : <NodeJS Width="30" Height="30"/>
         },
+        {
+            name : "postgres" , 
+            svg : <Postgres Width="30" Height="30"/>
+        },
+        {
+            name : "gogin" , 
+            svg : <Gin Width="30" Height="30"/>
+        },
+        {
+            name : "tailwind" , 
+            svg : <Tailwind Width="30" Height="30"/>
+        },
     ])
     return (
         <div className='w-full h-auto bg-dark pb-10 mt-10'>
@@ -31,7 +43,7 @@ const Technologies = () =>{
                 --Languages
             </p>
 
-            <div className='grid items-center justify-center w-full px-20 pt-10 h-auto grid-cols-3  gap-4'>
+            <div className='grid items-center justify-center w-full tablet:px-20 px-2 pt-10 h-auto grid-cols-3  gap-4'>
             {
 
                 skills.map((skill, index) => {
