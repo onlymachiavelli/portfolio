@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Card from './TechCards'
-import {Mongodb, Express,React as ReactJS, NodeJS, Postgres, Gin, TailwindCSS} from './svg'
+import {Mongodb, Express,React as ReactJS, NodeJS, Postgres, Gin, TailwindCSS, HTML , CSS, JS, PHP} from './svg'
 const Technologies = () =>{
 
     const [skills, setSkills] = React.useState([
@@ -33,6 +33,21 @@ const Technologies = () =>{
             svg : <TailwindCSS Width="30" Height="30"/>
         },
     ])  
+
+    const [lang, setLang] = React.useState([
+        {
+            name : "html" , 
+            svg : <HTML Width="30" Height="30"/>
+        },
+        {
+            name : "css" , 
+            svg : <CSS Width="30" Height="30"/>
+        },
+        {
+            name : "javascript" , 
+            svg : <JS Width="30" Height="30"/>
+        }
+    ])
     return (
         <div className='w-full h-auto bg-dark pb-10 mt-10'>
             <p className='text-red font-bold text-xl block m-auto w-full text-center pb-10'>
@@ -40,10 +55,21 @@ const Technologies = () =>{
             </p>
 
             <p className='text-red font-bold text-xl pt-5 tablet:pt-0 pl-10'>
-                --Languages
+                --LANGUAGES
             </p>
 
-            <div className='grid items-center justify-center w-full tablet:px-20 px-2 pt-10 h-auto grid-cols-3  gap-4'>
+            <div className='grid items-center justify-center w-full tablet:px-20 px-2 pt-10 h-auto grid-cols-3  gap-4 pb-10'>
+            {
+
+                lang.map((skill, index) => {
+                    return <Card  Title={skill.name} SVG={skill.svg} key={index} />
+                })
+            }
+            </div>
+            <p className='text-red font-bold text-xl pt-5 tablet:pt-0 pl-10'>
+                --TECHNOLOGIES
+            </p>
+            <div className='grid items-center justify-center w-full tablet:px-20 px-2 pt-10 h-auto grid-cols-3  gap-4 pb-10'>
             {
 
                 skills.map((skill, index) => {
