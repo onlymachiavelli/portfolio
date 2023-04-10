@@ -47,7 +47,7 @@ const Technologies = () =>{
             {
 
                 skills.map((skill, index) => {
-                    return <Card  Title={skill.name} SVG={skill.svg} />
+                    return <Card  Title={skill.name} SVG={skill.svg} key={index} />
                 })
             }
             </div>
