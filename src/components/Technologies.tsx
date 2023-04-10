@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Card from './TechCards'
-import {Mongodb, Express,React as ReactJS, NodeJS, Postgres, Gin, TailwindCSS, HTML , CSS, JS, PHP} from './svg'
+import {Mongodb, Express,React as ReactJS, NodeJS, Postgres, Gin, TailwindCSS, HTML , CSS, JS, PHP, GOLANG, C, CPP, Python, TS, SQL} from './svg'
 const Technologies = () =>{
 
     const [skills, setSkills] = React.useState([
@@ -46,6 +46,34 @@ const Technologies = () =>{
         {
             name : "javascript" , 
             svg : <JS Width="30" Height="30"/>
+        },
+        {
+            name : "php" , 
+            svg : <PHP Width="30" Height="30"/>
+        },
+        {
+            name : "golang" , 
+            svg : <GOLANG Width="30" Height="30"/>
+        },
+        {
+            name : "c language" , 
+            svg : <C Width="30" Height="30"/>
+        },
+        {
+            name : "c plus plus" , 
+            svg : <CPP Width="30" Height="30"/>
+        },
+        {
+            name : "python" , 
+            svg : <Python Width="30" Height="30"/>
+        },
+        {
+            name : "typescript" , 
+            svg : <TS Width="30" Height="30"/>
+        },
+        {
+            name : "sql" , 
+            svg : <SQL Width="30" Height="30"/>
         }
     ])
     return (
