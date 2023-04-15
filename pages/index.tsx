@@ -11,7 +11,7 @@ import Technologies from "../src/components/Technologies"
 import Works from "../src/components/works"
 const App = () => {
   return (
-    <main className=" w-full h-auto overflow-auto bg-dark m-auto pt-5">
+    <main className=" w-full h-auto  bg-dark m-auto pt-5">
       <Head>
         <title>MR Machiavelli</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
