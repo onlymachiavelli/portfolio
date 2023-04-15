@@ -10,7 +10,7 @@ const Contact = () => {
 
             <div className='tablet:flex tablet:items-center tablet:justify-center w-full'>
               <aside className='text-center tablet:w-1/3 w-full flex  items-center justify-center flex-col gap-10'>
-                  <Duck Width="250" Height="auto" />
+                  <Duck Width="300" Height="auto" />
                   <p className='text-red font-bold text-xl text-center'>SEND DUDES</p>
               </aside>
 

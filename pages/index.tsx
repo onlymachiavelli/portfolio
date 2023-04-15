@@ -10,6 +10,7 @@ import Expert from "../src/components/Expret"
 import Technologies from "../src/components/Technologies"
 import Works from "../src/components/works"
 import Contact from "../src/components/Contact"
+import Per from "../src/components/Guitar"
 const App = () => {
   return (
     <main className=" w-full h-auto  bg-dark m-auto pt-5">
@@ -30,6 +31,7 @@ const App = () => {
         <Technologies/>
         <Works/>
         <Contact/>
+        <Per/>
       </section>
       
     </main>
