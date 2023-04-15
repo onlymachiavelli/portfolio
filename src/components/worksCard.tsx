@@ -4,13 +4,18 @@ import { Logo } from './svg'
 
 const Card = ({...props}) => {
     return (
-        <div className='bg-[#1C1B1B] h-80 tablet:w-1/4 w-3/4 m-auto tablet:m-0 mt-5 '>
-            <div className="w-full flex items-center justify-center h-4/5 bg-cover bg-center" style={{ backgroundImage: `url('https://www.nasa.gov/sites/default/files/thumbnails/image/main_image_star-forming_region_carina_nircam_final-5mb.jpg')` }}>
+        <div className='bg-[#1C1B1B] h-80 tablet:w-1/4 w-3/4 m-auto tablet:m-0 mt-5 ' title={props.Title}>
+            <div className="w-full flex items-center justify-center h-4/5 bg-cover bg-center" style={{ 
+                //backgroundImage: `url('https://www.nasa.gov/sites/default/files/thumbnails/image/main_image_star-forming_region_carina_nircam_final-5mb.jpg')`
+                backgroundImage:props.Img
+                }}>
                 
 
                 <div className='w-full h-full flex items-center justify-center bg-[#00000094]'>
 
-                <Logo Width="200" />
+                {
+                    props.Logo
+                }
                 </div>
             </div> 
             <div className='w-full flex justify-between px-4 h-auto pt-2.5'>
