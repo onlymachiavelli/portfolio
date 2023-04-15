@@ -8,6 +8,7 @@ import Me from "../src/components/ME"
 import Skills from "../src/components/Skills"
 import Expert from "../src/components/Expret"
 import Technologies from "../src/components/Technologies"
+import Works from "../src/components/works"
 const App = () => {
   return (
     <main className=" w-full h-auto overflow-auto bg-dark m-auto pt-5">
@@ -26,6 +27,7 @@ const App = () => {
         <Skills/>
         <Expert/>
         <Technologies/>
+        <Works/>
       </section>
       
     </main>
