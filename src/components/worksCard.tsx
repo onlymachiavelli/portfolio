@@ -19,7 +19,7 @@ const Card = ({...props}) => {
                 </div>
             </div> 
             <div className='w-full flex justify-between px-4 h-auto pt-2.5'>
-                <Link href={""} className='bg-red w-1/2 text-center py-3 text-white text-sm duration-200 '>VISIT</Link>
+                <Link href={""} className='bg-red w-1/2 text-center py-3 text-white text-sm duration-200 hover:bg-[#e56f6f]'>VISIT</Link>
                 <Link href={""} className='text-white py-3 text-sm w-1/2 text-center'>READ MORE
                 </Link>
             </div>

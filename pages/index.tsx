@@ -9,6 +9,7 @@ import Skills from "../src/components/Skills"
 import Expert from "../src/components/Expret"
 import Technologies from "../src/components/Technologies"
 import Works from "../src/components/works"
+import Contact from "../src/components/Contact"
 const App = () => {
   return (
     <main className=" w-full h-auto  bg-dark m-auto pt-5">
@@ -28,6 +29,7 @@ const App = () => {
         <Expert/>
         <Technologies/>
         <Works/>
+        <Contact/>
       </section>
       
     </main>
