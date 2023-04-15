@@ -20,11 +20,17 @@ module.exports = {
         sans: ["Quicksand", "sans-serif"],
 
       },
+
       colors: {
         dark : "#101010",
         red :"#BD2F2F"
+      },
+      backgroundImage:{
       }
+      
     },
+
+    
   },
   plugins: [],
 }
