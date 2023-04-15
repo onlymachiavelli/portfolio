@@ -11,6 +11,7 @@ import Technologies from "../src/components/Technologies"
 import Works from "../src/components/works"
 import Contact from "../src/components/Contact"
 import Per from "../src/components/Guitar"
+import Footer from "../src/components/Footer"
 const App = () => {
   return (
     <main className=" w-full h-auto  bg-dark m-auto pt-5">
@@ -32,6 +33,7 @@ const App = () => {
         <Works/>
         <Contact/>
         <Per/>
+        <Footer/>
       </section>
       
     </main>
