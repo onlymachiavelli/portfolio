@@ -9,7 +9,7 @@ const Footer = () =>{
                 <Logo Width="150" />
             </div>
             <div className='flex flex-col pl-10 pt-10'>
-            <Link href={""} className='text-sm text-red'>tmakaveli643@gmail.com</Link>
+            <Link href={"mailto:tmakaveli643@gmail.com"} className='text-sm text-red'>tmakaveli643@gmail.com</Link>
             <Link href={""} className='text-sm text-red'>+216 00 000 000</Link>
             </div>
             <div>

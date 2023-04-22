@@ -4,6 +4,7 @@ import { AnimatePresence , motion } from 'framer-motion'
 import Link from 'next/link'
 import Meme from './../../public/img/meme.gif'
 import Image from 'next/image'
+
 const Random = (min:any, max:any) : any =>{
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -27,7 +28,7 @@ const HeroSection = () =>{
 
                     <div className='pt-10 space-x-0 tablet:space-x-2 grid gird-cols tablet:block '>
 
-                        <Link href="" className='bg-red text-white tablet:inline  w-1/2 flex tablet:py-3 tablet:px-14 items-center justify-center py-2  tablet:mt-10 mt-5 text-sm bl'>Download my CV</Link>
+                        <Link href={"/CV.pdf"}  rel="noopener noreferrer" target='_blank' className='bg-red text-white tablet:inline  w-1/2 flex tablet:py-3 tablet:px-14 items-center justify-center py-2  tablet:mt-10 mt-5 text-sm bl'>Download my CV</Link>
                         <Link href="" className='bg-auto text-white tablet:inline tablet:py-3 tablet:px-14  w-1/2 flex items-center justify-center py-2  tablet:mt-10 mt-5 border duration-1000 hover:bg-[#ffffff70] text-sm'>Explore more</Link>
                     </div> 
               </div>
