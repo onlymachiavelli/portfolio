@@ -17,8 +17,8 @@ const Navbar = () =>{
                         <Logo Width={"150"}/>
                     </motion.div>
                 </Link>
-            <section className=' pt-10 tablet:pt-0  w-full fixed tablet:relative tablet:w-full overflow-hidden tablet:flex hidden'>
-                <nav className={`${styles.nav} pl-10 p-1 pb-3 block `}>
+            <section className={`pt-10 tablet:pt-0  w-full fixed tablet:relative tablet:w-full overflow-hidden tablet:flex ${burger} `}>
+                <nav className={`${styles.nav} pl-10 p-1 pb-3 block bg-dark border-bottom relative tablet:mt-0 mt-5 `}>
                     <Link href={""}className={`hover:font-bold ${styles.current_page} block tablet:inline`}>HOME</Link>
                     <Link href={""} className={"hover:font-bold block tablet:inline"}>SERVICES</Link>
                     <Link href={""}className={"hover:font-bold block tablet:inline"}>PORTFOLIO</Link>
@@ -37,7 +37,11 @@ const Navbar = () =>{
             <div className='flex-1 tablet:hidden'></div>
             
             <div className='m-0.5 pr-5 tablet:hidden'>
-                <button>
+                <button 
+                    onClick={()=>{
+                        setBurger(burger === "hidden" ? "flex" :"hidden")
+                    }}
+                >
                     <Burger Width="30" Height="30" />
                 </button>
             </div>    
