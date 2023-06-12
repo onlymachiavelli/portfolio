@@ -12,6 +12,15 @@ const Works = () =>{
             pageURL:"https://sarshub.vercel.app/", 
             Title : "SarsHub"
         },
+        
+        {
+            Logo :
+            <p className="text-white text-xl font-bold">Snative SVG Syntax Fixer</p>, 
+            Img : `url('https://firebasestorage.googleapis.com/v0/b/tradi-de5be.appspot.com/o/bang%2Fsn.png?alt=media&token=74a8a1d4-9db9-4c53-83a6-6f4ebc427b71&_gl=1*764rd0*_ga*NDQ4NDExOTM5LjE2NzY1ODEzMzk.*_ga_CW55HF8NVT*MTY4NjU0MzQyMS41LjEuMTY4NjU0NDMwMC4wLjAuMA..')`,
+            Link  :"https://github.com/onlymachiavelli/svg2Svg" , 
+            pageURL:"https://snative.vercel.app/", 
+            Title : "Snative"
+        },
         {
             Logo : <p className="text-white text-xl font-bold">LandHippo FST Hackathon</p>, 
             Img : `url('https://firebasestorage.googleapis.com/v0/b/tradi-de5be.appspot.com/o/bang%2Flandhippo.png?alt=media&token=730f7786-164e-4ba7-807f-9e36b9e6e3a8&_gl=1*1yaux2v*_ga*NDQ4NDExOTM5LjE2NzY1ODEzMzk.*_ga_CW55HF8NVT*MTY4NjU0MzQyMS41LjEuMTY4NjU0MzQ5OS4wLjAuMA..')`,
@@ -61,18 +70,11 @@ const Works = () =>{
             pageURL:"", 
             Title : "Hello World"
         },
-        ,
-        {
-            Logo :
-            <p className="text-white text-xl font-bold">Snative SVG Syntax Fixer</p>, 
-            Img : `url('https://firebasestorage.googleapis.com/v0/b/tradi-de5be.appspot.com/o/bang%2Fsn.png?alt=media&token=74a8a1d4-9db9-4c53-83a6-6f4ebc427b71&_gl=1*764rd0*_ga*NDQ4NDExOTM5LjE2NzY1ODEzMzk.*_ga_CW55HF8NVT*MTY4NjU0MzQyMS41LjEuMTY4NjU0NDMwMC4wLjAuMA..')`,
-            Link  :"https://github.com/onlymachiavelli/svg2Svg" , 
-            pageURL:"https://snative.vercel.app/", 
-            Title : "Snative"
-        },
 
         
     ])
+    //reverse 
+    
 
     //
     return (
@@ -83,7 +85,8 @@ const Works = () =>{
 
            <div className='tablet:flex tablet:items-center tablet:justify-center gap-4  grid-cols-3 flex-wrap'>
                 {
-                    Works.map((data, index) =>{
+                    
+                    Works.reverse().map((data, index) =>{
                         return (
                             <Card 
                                 Logo={data.Logo}
