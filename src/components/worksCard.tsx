@@ -26,7 +26,8 @@ const Card = ({...props}) => {
                 <Link href={
 
                     props.Link
-                }target="_blank" className='text-white py-3 text-sm w-1/2 text-center'>READ MORE
+                }target="_blank" className='text-white  text-sm w-1/2 text-center'><i className=" text-white  text-4xl pt-1 fa fa-github" aria-hidden="true"></i>
+
                 </Link>
             </div>
         </div>
