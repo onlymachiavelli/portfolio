@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Card from './Card'
-import { Pen, Brackets } from './svg'
+import { Pen, Brackets, Inf } from './svg'
 
 const Expert = () => {
     return (
@@ -36,13 +36,10 @@ DEVELOP MY PERSONALITY AND ESPACE THE FUCKING MATRIX</p>
                         </p>
                     </Card>
                     
-                    <Card Logo={<Pen Width="50" />} Color="[#292929]">
-                        <p className='text-white font-bold py-2 text-center pb-4'>UI-UX DESIGN</p>
+                    <Card Logo={<Inf Width="50" />} Color="[#292929]">
+                        <p className='text-white font-bold py-2 text-center pb-4'>DevOps</p>
                         <p className='text-white w-full block px-2 '>
-                            I’VE BEEN PROTOTYPING 
-                            AND DESIGNING WEBSITES AND LOGOS 
-                            AND MAKING AWESOME VIDEO EDITS
-                            6 YEARS PLUS.
+                        I'm currently exploring the world of DevOps, merging software development and IT operations for efficient software delivery.
                         </p>
                     </Card>
                </div>

@@ -11,7 +11,7 @@ const Card = ({...props}) => {
                 }}>
                 
 
-                <div className='w-full h-full flex items-center justify-center bg-[#00000094]'>
+                <div className='w-full h-full flex items-center justify-center bg-[#00000050]'>
 
                 {
                     props.Logo
@@ -19,8 +19,14 @@ const Card = ({...props}) => {
                 </div>
             </div> 
             <div className='w-full flex justify-between px-4 h-auto pt-2.5'>
-                <Link href={""} className='bg-red w-1/2 text-center py-3 text-white text-sm duration-200 hover:bg-[#e56f6f]'>VISIT</Link>
-                <Link href={""} className='text-white py-3 text-sm w-1/2 text-center'>READ MORE
+                <Link href={
+
+                    props.pageURL
+                } target="_blank" className='bg-red w-1/2 text-center py-3 text-white text-sm duration-200 hover:bg-[#e56f6f]'>VISIT</Link>
+                <Link href={
+
+                    props.Link
+                }target="_blank" className='text-white py-3 text-sm w-1/2 text-center'>READ MORE
                 </Link>
             </div>
         </div>
