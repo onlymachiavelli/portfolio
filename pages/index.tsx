@@ -14,30 +14,33 @@ import Per from "../src/components/Guitar"
 import Footer from "../src/components/Footer"
 const App = () => {
   return (
-    <main className=" w-full h-auto  bg-dark m-auto pt-5">
-      <Head>
-        <title>MR Machiavelli</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com"  />
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" / >
-          <link rel="stylesheet" href="https://nie-mand.github.io/krustykrabs/font-awesome/css/font-awesome.css" />
-          <meta name="description" content="My name is Alaa Barka, CS Student @ ESSTHS. I am a Full-Stack Web Developer. Scroll down to learn more about me." />
-      </Head>
+    <html className="scroll-smooth">
+        <Head>
+          <title>MR Machiavelli</title>
+          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com"  />
+          <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" / >
+            <link rel="stylesheet" href="https://nie-mand.github.io/krustykrabs/font-awesome/css/font-awesome.css" />
+            <meta name="description" content="My name is Alaa Barka, CS Student @ ESSTHS. I am a Full-Stack Web Developer. Scroll down to learn more about me." />
+        </Head>
+      <main className=" w-full h-auto  bg-dark m-auto pt-5 scroll-smooth">
 
-      <section className="w-full h-screen">
-        <Navbar />
-        <HeroSection/>
-        <Me/>
-        <Skills/>
-        <Expert/>
-        <Technologies/>
-        <Works/>
-        <Contact/>
-        <Per/>
-        <Footer/>
-      </section>
-      
-    </main>
+        <section className="w-full h-screen">
+          <Navbar />
+          <HeroSection/>
+          <Me/>
+          <Skills/>
+          <Expert/>
+          <Technologies/>
+          <Works/>
+          <Contact/>
+          {//<Per/>
+          }
+          <Footer/>
+        </section>
+        
+      </main>
+    </html>
   )
 }
 

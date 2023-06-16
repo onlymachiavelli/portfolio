@@ -3,7 +3,7 @@ import { Duck } from './svg'
 
 const Contact = () => {
     return (
-        <div className='w-full h-auto'>
+        <div className='w-full h-auto' id="contact">
           <p className='text-red font-bold text-xl block m-auto w-full text-center pb-10'>
                 --LEAVE A NICE MESSAGE
             </p>

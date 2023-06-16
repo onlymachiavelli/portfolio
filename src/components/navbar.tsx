@@ -22,8 +22,8 @@ const Navbar = () => {
                     <Link href={""} className={`hover:font-bold ${styles.current_page} block tablet:inline`}>HOME</Link>
                     <Link href={""} className={"hover:font-bold block tablet:inline"}>SERVICES</Link>
                     <Link href={""} className={"hover:font-bold block tablet:inline"}>PORTFOLIO</Link>
-                    <Link href={""} className={"hover:font-bold block tablet:inline"}>MY WORKS</Link>
-                    <Link href={""} className={"hover:font-bold block tablet:inline"}>CONTACT</Link>
+                    <Link href={"#works"} className={"hover:font-bold block tablet:inline"}>MY WORKS</Link>
+                    <Link href={"#contact"} className={"hover:font-bold block tablet:inline"}>CONTACT</Link>
                     <Link href={""} className={"hover:font-bold block tablet:inline"}>ABOUT</Link>
                 </nav>
                 <div className='tablet:flex-1'></div>
